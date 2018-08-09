@@ -1,3 +1,4 @@
-a = int(input('введите число a: '))
-b = int(input('введите число b: '))
-print('b=',int (a), 'a=', int (b))
+a = input('введите число a: ')
+b = input('введите число b: ')
+a,b = b,a
+print(a, b)
